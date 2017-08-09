@@ -7,5 +7,5 @@
 </pre>
 图中涉及的头像，可以修改 `static/css/style.css 下的 background-image:url` 可以是网页图片，还可以将图片放置在image文件夹下，将上诉的URL设置成相对路径的方式显示<br/>
 至于微信二维码，直接同名文件替换image下的文件就行<br/>
-这个简历效果可以查看  [薛智友个人简历](https://xzy256.github.io/xzy-resume/)
+这个简历效果可以查看  [薛智友个人简历](https://xzy256.github.io/personal-resume/)
 <br/>最后的简历可以使用chrome浏览器进行打印，另存为PDF格式
