@@ -24,7 +24,7 @@
                     <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
                 </div>
                 <h1 id="username" >薛智友</h1>
-                <h4 id="persona-tag" >Android开发/Linux/深度学习</h4>
+                <h4 id="persona-tag" >Android开发/Linux/机器学习</h4>
             </div>
             <div class="profile info-unit">
                 <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
@@ -43,7 +43,7 @@
 		    <li>
                         <label class="left-label">政治面貌</label><span class="label-value">中共党员</span></li>
 		     <li>
-                        <label class="left-label">兴趣爱好</label><span class="label-value">听歌旅游、吉他书画等</span></li>
+                        <label class="left-label">兴趣爱好</label><span class="label-value">听歌旅游、琴棋书画等</span></li>
                 </ul>
             </div>
             <div class="contact info-unit">
@@ -59,7 +59,7 @@
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">编程语言</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">语言能力</span></h2>
                 <hr>
                 <ul class="progress-list">
 		    <li>
@@ -119,20 +119,7 @@
                 <hr>
                
                 <p>2015.8-2018.7&nbsp;&nbsp;&nbsp;中国科学院计算技术研究所&nbsp;&nbsp;&nbsp;计算机技术&nbsp;&nbsp;&nbsp;硕士</p>
-			<!--
-                        <p>
-                            研一参加集中教学，学习了算法、网络、体系结构等课程。研二阶段，在龙芯公司和计算所联合培养下，开始了我的半
-			    工半读生涯。在龙芯公司我参与了hadoop的移植及其分布式平台搭建和验证;docker镜像的制作;qemu2.7 双TLB优化;
-			    tensorflow移植及图像识别应用开发等
-                        </p>
-			-->
-		<p>2010.8-2014.7&nbsp;&nbsp;&nbsp;山西中北大学&nbsp;&nbsp;&nbsp;计算机科学与技术专业&nbsp;&nbsp;&nbsp;学士 </p>
-                        <!--
-			<p>
-                           本科期间，学习了C\C++\java等编程语言、组成原理、OS、算法导论、数据结构、计算机网络等课程，班级排名10%，
-			   于2012正式成为一名正式党员。参加过第四届"蓝桥杯" Java设计大赛。学有余力的同时，自学了Java Swing图形编程和Android 开发
-                        </p>
-			-->
+		    <p>2010.8-2014.7&nbsp;&nbsp;&nbsp;中北大学&nbsp;&nbsp;&nbsp;计算机科学与技术专业&nbsp;&nbsp;&nbsp;学士 </p>
             </div>
             <div class="work info-unit right-list">
                 <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
@@ -149,20 +136,6 @@
 			3. 进行功能测试，修复登录异常、内容长无法显示等BUG，加入分享、消息推送、支付等模块<br>
                         </p>
                     </li>
-<!--
-                    <li>
-			<h3 contenteditable="true">
-                        2016.6-至今<br>
-                        loongson中科 |系统研发部 | 开发<br>
-                        </h3>
-                       <p contenteditable="true">
-                        <b font-size="small">工作描述:</b><br>
-                        1. 通过对前沿软件的编译移植测试，比如大数据、云计算、qemu、深度学习等，完善了龙芯的生态链，吸引了相关领域的合作伙伴<br>
-                        2. 参与打印机的适配，达到支持像HP、理光、佳能、奔图等打印机，完善了支持外设的种类<br>
-                        3. 负责部分软件使用文档的撰写<br>
-                        </p>
-                    </li>
--->
                 </ul class="experience-list">
             </div>
             <div class="project info-unit right-list">
@@ -174,21 +147,17 @@
                         <p>	
                             <b font-size="small">需求描述：</b><br>
 				为了完善龙芯平台的生态链，面对当下的热潮深度学习，我们也需要一款能在MIPS平台上进行深度学习的框架，首选了Google
-				的Tensorflow。
-				<br>
+				的Tensorflow。<br>
 			    <b font-size="small">工作描述：</b><br>
-				1. 完成Tensorflow和依赖插件Bazel、GRPC、os-maven-plugin、protocbuf的移植，了解GRPC的原理<br>
-				2. 利用MNIST、CIFAR10、ImageNet数据集训练图片识别CNN的例子，熟悉卷积神经网络的内部原理，能配置多CPU/GPU进行训练。
-				熟悉KNN、softmax回归、线性回归等算法的工作原理<br>
-				3. 熟悉降维、分类、回归、排序等方法<br>
-				4. 了解SVM、随机森林、K-means、决策树、朴素贝叶斯、AdaBoost、马尔可夫链、遗传等算法<br>
-				5. 熟悉GoogleNet网络的结构和原理，研究过inception v3网络源码，知道如何进行迁移学习、batch normalization，如何防止
-				过拟合等<br>
-				<!--	
+				1. 完成依赖插件Bazel、GRPC、os-maven-plugin、protocbuf的移植，最终成功移植Tensorflow CPU版<br>
+				2. 利用MNIST、CIFAR10、ImageNet数据集针对CNN的例子，进行多CPU、多线程、图拆分不同情况，和x86平台的性能进行对比，同时还
+				对K-neighbor 、logstic回归、线性回归等算法运行时间进行了对比<br>
+				3. 深入研究GoogleNet inceptionV3 网络，编写识别宇宙飞船的代码，对官方训练好的模型进行了迁移学习，期间还使用过采样算法SMOTE对少样本进行拓展<br>	
 			    <b font-size="small">项目效果：</b><br>
-				神经网络的benchmark都能在MIPS上正常的训练和预测<br> -->
-			    <b font-size="small">关键技术：</b>Python、NN、图像识别、赫布定理<br>
-                        </p>
+				没涉及矩阵乘操作的算法运行时间x86-mips相差不大，涉及图像矩阵乘加时，运行时间差大约10倍左右<br> 
+			    <b font-size="small">关键技术：</b>Python、机器学习、类不平衡解决机制<br>
+			    <b font-size="small">机器学习专长：</b>熟悉常用降维方法、分类算法、回归算法；熟悉模型评估方法，多分类学习拆分策略；熟悉集成学习，迁移学习，神经网络；
+				了解深度学习里的多GPU、多分布式机制；了解大多数经典机器学习算法等<b></p>
 		    </li>
 		    <li>
                         <h3>龙芯MIPS平台QEMU加入局部查找表优化 | 主要负责人 | 2016.10-2017.2</h3>
@@ -216,7 +185,7 @@
 				1.深入理解docker的框架、使用命令、Dockerfile文件的规则<br>
 				2.实现了基础镜像的制作，随后裁剪依赖，制作了MIPS平台的极小镜像，并在此基础上编写Dockerfile进行应用镜像的定制<br>
 			    <b font-size="small">项目效果：</b><br>
-				Docker在MIPS平台上成功进行应用镜像的定制、迁移，并和航天xx公司携手合作打造容器应用生态<br>
+				Docker在MIPS平台上成功进行应用镜像的定制、迁移，并和航天云宏公司携手合作打造容器应用生态<br>
 			    <b font-size="small">关键技术：</b>容器技术、cgroup、namespace、ssh<br>
                         </p>
                     </li>               
@@ -238,8 +207,7 @@
                 <hr>
                 <p>
                     我是一个负责任的人，平时的工作从不捻轻怕重。工作负责，热爱IT行业，待人真诚。为人礼貌，低调做人。
-		    勤勉务实，，进取意识强烈，虚心好学的人；另外，自己身上也有不足，比如不太擅长交际，缺乏一定的组织
-		    能力，但一直在努力克服改善。
+		    勤勉务实，进取意识强烈，虚心好学的人；另外，自己身上也有不足，如缺乏一定的组织能力，交际能力一般等。
                 </p>
             </div>
         </div>
